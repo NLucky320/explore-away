@@ -611,7 +611,9 @@ footer {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding: 110px 284px;
+  padding: 110px 20px;
+  max-width: 770px;
+  margin: auto;
 }
 .footer-container img {
   width: 40px;
