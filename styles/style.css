@@ -560,7 +560,7 @@ div.stay {
   flex-basis: calc(100% - 500px);
 }
 .newsletter-input {
-  margin: 24px 0px;
+  margin-top: 24px;
 }
 .newsletter-input .field {
   border-radius: 8px;
