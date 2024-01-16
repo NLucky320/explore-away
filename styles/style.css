@@ -469,6 +469,46 @@ div.stay {
     rgba(19, 19, 24, 0) 100%
   );
 }
+
+/* our travel style */
+.travel-stories-container {
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.travel-stories-container h3 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+.travel {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+.travel-stories-item {
+  width: 100%;
+  /* flex-basis: 33%; */
+}
+.travel-img img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  border-radius: 16px;
+}
+.travel-stories-item h5 {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 16px;
+}
+
 /* newsletter style */
 .newsletter-container {
   margin-top: 100px;
@@ -509,7 +549,6 @@ div.stay {
   margin-bottom: 16px;
   margin-top: 24px;
   width: 100%;
-  /* margin-right: 40px; */
 }
 .input-subscribe {
   border-radius: 8px;
@@ -520,16 +559,12 @@ div.stay {
   padding: 14px 20px;
   border: 0;
   width: 100%;
-  /* margin-right: 40px; */
 }
-/* .newsletter-image {
-  position: relative;
-} */
+
 .save {
   border-radius: 16px;
   background: #ff5400;
   width: 324px;
-  /* height: 120px; */
   transform: rotate(-19.628deg);
   padding: 30px;
   position: absolute;
@@ -744,7 +779,8 @@ hr {
   .destination-container,
   .discount-section-container,
   .discount-section-container,
-  .perfect-place-container {
+  .perfect-place-container,
+  .travel-stories-container {
     margin-top: 24px;
     margin-bottom: 24px;
   }
@@ -760,6 +796,9 @@ hr {
   }
   input.see-all-packages {
     display: none;
+  }
+  .travel {
+    flex-direction: column;
   }
 
   /* Global Stylling */
