@@ -134,8 +134,9 @@ main {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-  padding: 16px 64px;
+  padding: 14px 64px;
   border: 0;
+  width: 22%;
 }
 
 .banner-image .find .btn-secondary {
