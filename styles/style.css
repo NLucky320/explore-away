@@ -180,7 +180,7 @@ main {
   font-weight: 800;
   border-radius: 8px;
   background: #ff5400;
-  padding: 20px;
+  padding: 14px 25px;
   border: 0;
   margin-top: 32px;
   /* width: 30%; */
@@ -414,7 +414,7 @@ div.stay {
   font-weight: 800;
   border-radius: 8px;
   background: #ff5400;
-  padding: 20px;
+  padding: 14px 25px;
   border: 0;
   /* width: 30%; */
 }
